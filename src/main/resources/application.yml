@@ -1,0 +1,10 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: '/console'
+  datasource:
+    url: 'jdbc:h2:file:C:\\Users\\stani\\Dysk Google\\Projekty\\Java\\SpringToDoAppFromUdemy\\demo\\todo-db'
+  main:
+   banner-mode: off
+task.template.allowMultipleTasks: false
